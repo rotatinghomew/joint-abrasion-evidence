@@ -64,6 +64,20 @@
         "effective_from",
         "effective_until"
       ]
+    },
+    "guarantees": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "requests",
+        "direct_only",
+        "excluded",
+        "primary",
+        "window_from",
+        "window_to"
+      ]
     }
   },
   "links": [

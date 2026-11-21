@@ -1,0 +1,4 @@
+id,requests,direct_only,excluded,primary,window_from,window_to
+G01,"Q1,Q2",0,,REF,2026-04-01,2026-06-30
+G02,Q1,1,F1,REF,2026-04-01,2026-06-30
+G03,Q3,1,,REF,2026-04-01,2026-06-30
