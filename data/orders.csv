@@ -1,0 +1,4 @@
+id,substitution,supplier,decided,locked,effective_from,effective_until
+O01,Q1,A,2026-03-26,2026-03-27,2026-04-01,2026-06-30
+O02,Q1,B,2026-03-28,,2026-04-01,2026-06-30
+O03,Q2,A,2026-03-31,,2026-04-05,2026-06-30

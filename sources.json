@@ -1,0 +1,89 @@
+{
+  "tables": {
+    "comparisons": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "station",
+        "left",
+        "right",
+        "family",
+        "grade",
+        "condition",
+        "endpoint",
+        "effect",
+        "se",
+        "n",
+        "lower",
+        "upper"
+      ]
+    },
+    "provenance": {
+      "key": [
+        "left_family",
+        "right_family",
+        "disclosed"
+      ],
+      "columns": [
+        "left_family",
+        "right_family",
+        "disclosed",
+        "overlap_min",
+        "overlap_max"
+      ]
+    },
+    "substitution": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "grade",
+        "condition",
+        "endpoint",
+        "from",
+        "to",
+        "min_gain",
+        "sources",
+        "confidence",
+        "candidate"
+      ]
+    },
+    "orders": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "substitution",
+        "supplier",
+        "decided",
+        "locked",
+        "effective_from",
+        "effective_until"
+      ]
+    }
+  },
+  "links": [
+    [
+      "provenance",
+      "left_family",
+      "comparisons",
+      "family"
+    ],
+    [
+      "provenance",
+      "right_family",
+      "comparisons",
+      "family"
+    ],
+    [
+      "orders",
+      "substitution",
+      "substitution",
+      "id"
+    ]
+  ]
+}

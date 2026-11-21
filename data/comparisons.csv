@@ -1,0 +1,11 @@
+id,station,left,right,family,grade,condition,endpoint,effect,se,n,lower,upper
+C01,east,A,REF,F1,t1,wet,cycles,1.2,0.42,36,10,40
+C02,west,B,REF,F2,t1,wet,cycles,1.5,0.35,26,10,40
+C03,south,A,B,F3,t1,wet,cycles,0.4,0.29,21,15,45
+C04,east,A,REF,F4,t1,wet,cycles,0.9,0.23,31,20,47
+C05,west,B,REF,F5,t1,wet,cycles,1.6,0.45,29,20,47
+C06,south,B,REF,F6,t1,dry,cycles,2.9,0.35,31,20,50
+C07,west,B,REF,F7,t1,wet,visual,3.1,0.31,31,15,44
+C08,east,C,REF,F8,t1,wet,cycles,1.1,0.28,35,16,33
+C09,north,A,REF,F9,t1,wet,cycles,0.92,0.37,29,15,49
+C10,north,B,C,F9,t1,wet,cycles,0.4,0.31,20,15,49
